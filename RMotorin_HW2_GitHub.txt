@@ -66,3 +66,10 @@ XML
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. Синхронизировать внешний и локальный репозиторий TXT
  ========================================================
+ 
+ script for creating remote repo from local git folder (creating remote repo from CLI)
+ 
+ #!bin/bash
+curl -u 'git_user_name:git_token' https://api.github.com/user/repos -d "{\"name\":\"folder_name\"}";
+git init;
+git remote add origin git@github.com:git_user_name/folder_name.git;
