@@ -1,0 +1,48 @@
+==========START===========
+
+1) Посмотреть где я	- pwd
+2) Создать папку 	- mkdir
+3) Зайти в папку	- cd fldr/ (cd 'pathfolder/folder')
+4) Создать 3 папки	- mkdir dir1 dir2 dir3
+5) Зайти в любоую папку - cd dir1/ cd dir(2,3, ...folder_name)
+6) Создать 5 файлов (3 txt, 2 json)	- touch file1.txt file2.txt file3.txt jason.json statham.json
+7) Создать 3 папки	- mkdir folder1 folder2 folder3
+8. Вывести список содержимого папки	- ls -la
+9) + Открыть любой txt файл	- nano file1.txt
+10) + написать туда что-нибудь, любой текст. - Hello, World!!! This is my first homework.
+11) + сохранить и выйти.	- CTRL+O (^O), Enter (куегкт), CTRL+X (^X)
+12) Выйти из папки на уровень выше	- cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.	- mv dir1/file1.txt dir1/file2.txt dir3/
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.	- cp dir1/jason.json dir1/statham.json dir3/
+15) Найти файл по имени	- find . -name file3.txt( Search in main folder and subfolders) , find / -name filename (Search at whole file system)
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.	- tail -f filename , less +F filename (толбко добавление инфы, удаление информации не видит в реале)
+17) вывести несколько первых строк из текстового файла	- head -n 5 file1.txt
+18) вывести несколько последних строк из текстового файла	- tail -n 7 file1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.	- less filename.txt
+20) вывести дату и время	- date
+
+========================
+
+Задание *
+1) Отправить http запрос на сервер.
+http://162.55.220.72:5005/terminal-hw-request
+
+$ curl http://162.55.220.72:5005/terminal-hw-request
+{"Intro":"Hello!! This is your the first response from server","Tasks":{"Task_1":"Send the next URL in terminal:
+http://162.55.220.72:5005/get_method?name=(set_your_String)&age=(set_your_number)","result":["Your_String","Your_number"]}}
+$ curl 'http://162.55.220.72:5005/get_method?name=Roman&age=37'
+["Roman","37"]
+
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
+
+# #!/bin/bash
+cd /mnt/c/Ubuntu/newdir/fldr/
+mkdir dir1 dir2 dir3
+cd dir1
+touch file1.txt file2.txt file3.txt jason.json statham.json
+mkdir folder1 folder2 folder3
+ls -la
+mv /mnt/c/Ubuntu/newdir/fldr/dir1/file1.txt /mnt/c/Ubuntu/newdir/fldr/dir1/file2.txt /mnt/c/Ubuntu/newdir/fldr/dir3
+
+=========FINISH========
