@@ -1,0 +1,176 @@
+{
+	"id": "ab9ded9a-c2f7-40d1-acdc-7bf5b88d3892",
+	"name": "HW_Group34",
+	"timestamp": "2023-05-12T11:34:45.340Z",
+	"collection_id": "14133386-34b1c1ae-2c28-49ff-a2c5-27a27221856a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-05-12T11:34:43.591Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "3101d917-0c00-47e9-ac6e-4242de24212f",
+			"name": "EP_1 /get_method",
+			"url": "http://162.55.220.72:5005/get_method?name=Roman&age=38",
+			"time": 96,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				96
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "959286a5-68e6-4483-a203-bf9c8639dbcd",
+			"name": "EP_2 /user_info_3",
+			"url": "http://162.55.220.72:5005/user_info_3",
+			"time": 92,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				92
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0e808ffc-f168-4d4c-bb56-449402f5aade",
+			"name": "EP_3 /object_info_1",
+			"url": "http://162.55.220.72:5005/object_info_1?name=Roman&age=38&weight=98",
+			"time": 90,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				90
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4f4b23bf-0b66-4cc4-bfe7-976d96dfc8b0",
+			"name": "EP_4 /object_info_2",
+			"url": "http://162.55.220.72:5005/object_info_2?name=Roman&age=38&salary=1500",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				91
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1ff6c7af-446b-47c7-bac7-4ec5264383d3",
+			"name": "EP_5 /object_info_3",
+			"url": "http://162.55.220.72:5005/object_info_3?name=Roman&age=38&salary=1500",
+			"time": 88,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				88
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1d25d670-dc11-458e-b046-a87d505308c5",
+			"name": "EP_6 /object_info_4",
+			"url": "http://162.55.220.72:5005/object_info_4?name=Roman&age=38&salary=1500",
+			"time": 91,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				91
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0ac78114-a4f0-4dde-a3e8-fa1cc2c14638",
+			"name": "EP_7 /user_info_2",
+			"url": "http://162.55.220.72:5005/user_info_2",
+			"time": 87,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				87
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 635,
+	"collection": {
+		"requests": [
+			{
+				"id": "3101d917-0c00-47e9-ac6e-4242de24212f",
+				"method": "GET"
+			},
+			{
+				"id": "959286a5-68e6-4483-a203-bf9c8639dbcd",
+				"method": "POST"
+			},
+			{
+				"id": "0e808ffc-f168-4d4c-bb56-449402f5aade",
+				"method": "GET"
+			},
+			{
+				"id": "4f4b23bf-0b66-4cc4-bfe7-976d96dfc8b0",
+				"method": "GET"
+			},
+			{
+				"id": "1ff6c7af-446b-47c7-bac7-4ec5264383d3",
+				"method": "GET"
+			},
+			{
+				"id": "1d25d670-dc11-458e-b046-a87d505308c5",
+				"method": "GET"
+			},
+			{
+				"id": "0ac78114-a4f0-4dde-a3e8-fa1cc2c14638",
+				"method": "POST"
+			}
+		]
+	}
+}
