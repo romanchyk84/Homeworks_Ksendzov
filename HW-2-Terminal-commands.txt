@@ -11,12 +11,38 @@ Termial. HW_2
  7. Зайти в папку inner_dir_1	-	cd inner_dir_1
  8. Через cat сделать текстовый файл tf_3.txt  c любыми строками	-	cat > tf_3.txt <<< ' lyubie stroki '
  9. Через cat добавить в текстовый файл tf_3.txt строку “the second 2”	-	cat >> tf_3.txt <<< '"the second 2"'
- 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”
- 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”
- 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”
- 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”
- 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.
- 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.
+ 10. Через cat добавить в текстовый файл tf_3.txt строку “the sec 2”	-	cat >> tf_3.txt <<< '"the sec 2"'
+ 11. Через cat добавить в текстовый файл tf_2.txt строку “the sec 3”	-	cat >> /d/dir_1/tf_2.txt <<< '"the sec 3"'
+ 12. Через cat добавить в текстовый файл tf_3.txt строку “the SeCoNd 2”	-	cat >> tf_3.txt <<< '"the SeCoNd 2"'
+ 13. Через cat добавить в текстовый файл tf_2.txt строку “the seConD 2”	-	cat >> /d/dir_1/tf_2.txt <<< '"the seConD 2"'
+ 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк.			-	cat > tf_4.txt <<< '1 line
+																			2 line
+																			3 line
+																			4 line
+																			5 line
+																			6 line
+																			7 line
+																			8 line
+																			9 line
+																			10 line
+																			11 line
+																			12 line
+																			13 line
+																			14 line
+																			15 line'
+ 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк.			-	cat > tF_5.txt <<< '1 line
+																			2 line
+																			3 line
+																			4 line
+																			5 line
+																			6 line
+																			7 line
+																			8 line
+																			9 line
+																			10 line
+																			11 line
+																			12 line
+																			13 line'
  16. Вывести список всех файлов в папке.
  17. Выйти из папки inner_dir_1
  18. Вывести содержимое файла tf_3.txt в терминал.
